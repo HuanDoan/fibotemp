@@ -498,16 +498,19 @@ footer .ft-menu .ft-menu-sub ul li a:hover{
 		margin: 0;
 		padding: 0;
 		vertical-align: middle;
+		text-align: right;
 	}
 
 	#MainNav .user-act ul li{
 		display: inline-block;
 		vertical-align: middle;
 		padding-top: 20px;
+		margin-left: 25px; 
 	}
 
 	#MainNav .user-act ul li a{
 		text-decoration: none;
+		color: #666;
 	}
 
 	#MainNav .user-act ul li a div.user-ava{
@@ -518,6 +521,42 @@ footer .ft-menu .ft-menu-sub ul li a:hover{
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+	}
+
+	#MainNav .user-act ul li a div.noti-bell{
+		display: block;
+		width: 30px;
+		height: 30px;
+		background-image: url('../images/bell.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+
+	#MainNav .user-act ul li a div.noti-bell .noti-no{
+		display: block;
+		width: 16px;
+		height: 16px;
+		font-size: 12px;
+		text-align: center;
+		position: absolute;
+		top: 0;
+		right: -4px;
+		background-color: red;
+		border-radius: 100%;
+		color: #fff;
+	}
+
+	#MainNav .user-act ul li a div.more{
+		display: block;
+		width: 40px;
+		height: 40px;
+		background-image: url('../images/more.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
 	}
 
 	#Content{
