@@ -36,6 +36,35 @@ body{
 .widget .widget-content{
 }
 
+
+.sc-icon{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sc-fb{
+	background: url('../images/social-icons-40.png') 0 0;
+}
+
+.sc-insta{
+	background: url('../images/social-icons-40.png') 0 -135px;
+}
+
+.sc-gplus{
+	background: url('../images/social-icons-40.png') 0 -45px;
+}
+
+.sc-tw{
+	background: url('../images/social-icons-40.png') 0 -90px;
+}
+
+.sc-yt{
+	background: url('../images/social-icons-40.png') 0 -180px;
+}
+
 #NavWrap{
 	position: fixed;
 	top: 0;
@@ -300,6 +329,80 @@ body{
 	display: none;
 }
 
+footer{
+	margin-top: 25px;
+	width: 100%;
+	background-color: #fff;
+	border-top: 1px solid #ddd;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #28cde5;
+}
+
+footer .social{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+footer .social ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+footer .social li{
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+footer .ft-menu{
+	margin-top: 20px;
+}
+
+footer .ft-menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+footer .ft-menu ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+footer .ft-menu ul li a{
+	text-decoration: none;
+	color: #666;
+}
+
+footer .ft-menu .ft-menu-main ul li a{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+footer .ft-menu .ft-menu-main ul li a:hover{
+	text-decoration: underline;
+	color: #28e56f;
+}
+
+footer .ft-menu .ft-menu-sub{
+	margin-top: 15px;
+}
+
+footer .ft-menu .ft-menu-sub ul li a{
+	font-size: 12px;
+	font-weight: 300;
+	color: #aaa;
+}
+
+footer .ft-menu .ft-menu-sub ul li a:hover{
+	color: #666;
+	text-decoration: underline;
+}
 
 @media screen and (min-width: 991px){
 	#mobileNav{
