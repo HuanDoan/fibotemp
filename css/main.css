@@ -2,6 +2,14 @@ body{
 	background-color: #f6f6f6;
 }
 
+.box-shadow{
+	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+       -moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    	-ms-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    	 -o-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+        	box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
 .nopadding-xs{
 	padding: 0 !important;
 }
@@ -548,7 +556,7 @@ footer .ft-menu .ft-menu-sub ul li a:hover{
 		color: #fff;
 	}
 
-	#MainNav .user-act ul li a div.more{
+	#MainNav .user-act ul li div.more{
 		display: block;
 		width: 40px;
 		height: 40px;
@@ -557,6 +565,51 @@ footer .ft-menu .ft-menu-sub ul li a:hover{
 		background-repeat: no-repeat;
 		background-size: cover;
 		position: relative;
+
+		cursor: pointer;
+	}
+
+	#MainNav .user-act ul li div.more .more-dropdown{
+		display: none;
+		position: absolute;
+		background-color: #fff;
+		border: 1px solid #eee;
+		top: 50px;
+		left: -245px;
+		width: 300px;
+	}
+
+	#MainNav .user-act ul li div.more .more-dropdown ul{
+		text-align: left;
+		margin: 0;
+		padding: 0;
+	}
+
+	#MainNav .user-act ul li div.more .more-dropdown ul li{
+		display: block;
+		width: 100%;
+		line-height: 60px;
+		border-bottom: 1px solid #eee;
+		margin-left: 0;
+		padding-left: 25px;
+		padding-right: 15px;
+		vertical-align: middle;
+		padding-top: 0;
+	}
+
+	#MainNav .user-act ul li div.more .more-dropdown ul li a{
+		display: block;
+		width: 100%;
+	}
+
+	#MainNav .user-act ul li div.more .more-dropdown ul li:hover{
+		background-color: #f8f8f8;
+	}
+
+	#MainNav .user-act ul li div.more .more-dropdown ul li a span{
+		font-size: 20px;
+		vertical-align: middle;
+		margin-right: 20px;
 	}
 
 	#Content{

@@ -31,3 +31,20 @@ $('#toggleSubmenu').click(function(){
 	// $('#Submenu').addClass('animated '+'bounceIn');
 	$('#Submenu').toggle();
 });
+
+$('.dropdown').each(function(){
+	var _this = $(this);
+	var dest = _this.attr('dest');
+	_this.click(function(){
+		var $this = $(this);
+		$this.find('#'+dest).slideDown();
+		$(document).mouseup(function(e) 
+		{
+		    var container = $('#'+dest);
+		    if (!container.is(e.target) && container.has(e.target).length === 0) 
+		    {
+		        container.slideUp();
+		    }
+		});
+	});
+});
