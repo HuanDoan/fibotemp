@@ -6,6 +6,48 @@ body{
 	background-color: #fff;
 }
 
+.bg-radient{
+	background: #28e56f;
+	background: -webkit-linear-gradient(left, #28e56f , #28cde5);
+	background:    -moz-linear-gradient(right, #28e56f , #28cde5);
+	background:      -o-linear-gradient(right,  #28e56f , #28cde5);
+	background:         linear-gradient(to right,  #28e56f , #28cde5);
+}
+
+.shadow{
+	position: relative;
+}
+.shadow::before,
+.shadow::after{
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 50%;
+	top: 80%;
+	max-width:300px;
+	background: #777;
+	-webkit-box-shadow: 0 15px 10px #777;
+	-moz-box-shadow: 0 15px 10px #777;
+	box-shadow: 0 15px 10px #777;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+}
+
+.shadow::after{
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	transform: rotate(3deg);
+	right: 10px;
+	left: auto;
+}
+
 .border-radius{
 	border-radius: 5px;
 }
@@ -16,6 +58,20 @@ body{
     	-ms-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
     	 -o-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
         	box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.box-content{
+	display: block;
+	margin-top: 15px;
+	padding: 20px 15px;
+	position: relative;
+	z-index: 2;
+}
+
+.ticket{
+	display: inline-block;
+	width: 49.74%;
+	height: 200px;
 }
 
 .nopadding-xs{
@@ -255,6 +311,25 @@ body{
 .sliderCarousel  .item:hover div.act .kang-btn-act-heart:focus,
 .sliderCarousel  .item:hover div.act .kang-btn-act-heart:active{
 	color: #e8e8e8;
+}
+
+.sliderCarousel  .item:hover div.act .text-content{
+	display: block;
+	width: 100%;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.sliderCarousel  .item:hover div.act .text-content > a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.sliderCarousel  .item:hover div.act .text-content > a:hover,
+.sliderCarousel  .item:hover div.act .text-content > a:focus{
+	text-decoration: underline;
 }
 
 .sidebar .ava{
