@@ -185,8 +185,20 @@
 	font-style: italic;
 }
 
+.prf-section .prf-section-content .columns > .row{
+	margin-bottom: 14px;
+}
+
 .prf-section:last-child{
 	border-bottom: none;
+}
+
+.profile-content .tab-id{
+	display: none;
+}
+
+.profile-content .tab-id.active{
+	display: block;
 }
 
 @media screen and (min-width: 768px){
