@@ -137,6 +137,21 @@ body{
 	background: url('../images/social-icons-40.png') 0 -180px;
 }
 
+
+.noti-no{
+	display: block;
+	background-color: red;
+	color: #fff;
+	width: 16px;
+	height: 16px;
+	font-size: 12px;
+	text-align: center;
+	position:absolute;
+	top: 0;
+	right: -5px;
+	border-radius: 100%;
+}
+
 #NavWrap{
 	position: fixed;
 	top: 0;
@@ -644,11 +659,19 @@ footer .ft-menu .ft-menu-sub ul li a:hover{
 		color: #fff;
 	}
 
+	#MainNav .user-act .more.three-dots{
+		background-image: url('../images/more.png');
+	}
+
+	#MainNav .user-act .more.bell{
+		background-image: url('../images/bell.png');
+	}
+
 	#MainNav .user-act ul li div.more{
 		display: block;
-		width: 40px;
-		height: 40px;
-		background-image: url('../images/more.png');
+		width: 30px;
+		height: 30px;
+		
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -665,6 +688,8 @@ footer .ft-menu .ft-menu-sub ul li a:hover{
 		top: 50px;
 		left: -245px;
 		width: 300px;
+		max-height: 450px;
+		overflow-y: auto;
 	}
 
 	#MainNav .user-act ul li div.more .more-dropdown ul{
@@ -698,6 +723,15 @@ footer .ft-menu .ft-menu-sub ul li a:hover{
 		font-size: 20px;
 		vertical-align: middle;
 		margin-right: 20px;
+	}
+
+	#MainNav .user-act ul li div.more .more-dropdown ul li a p{
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		line-height: normal;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 
 	#Content{
