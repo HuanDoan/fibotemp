@@ -152,6 +152,26 @@ body{
 	border-radius: 100%;
 }
 
+.btn-love-react{
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #ed3d7a;
+}
+
+.btn-love-react:hover,
+.btn-love-react:focus,
+.btn-love-react:active{
+	background-color: #ff4283;
+	color: #fff;
+}
+
+.btn-love-react span{
+	vertical-align: middle;
+}
+
 #NavWrap{
 	position: fixed;
 	top: 0;

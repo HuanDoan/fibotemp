@@ -1,0 +1,61 @@
+
+.frame{
+	background-color: #fff;
+	margin-top: 25px;
+}
+
+.frame .frame-header{
+	position: relative;
+}
+
+.frame .frame-header .like{
+	position: absolute;
+	bottom: -22px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+
+.frame .frame-header img{
+	display: block;
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.frame .frame-info{
+	overflow: hidden;
+	padding: 0 5px;
+	margin-top: 22px;
+}
+
+.frame .frame-info h5{
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: center;
+	font-weight: 400;
+
+	color: #666;
+}
+
+.frame .frame-info .city{
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.frame .frame-info a{
+	text-decoration: none;
+}
+
+.frame .frame-info a h5{
+	color: #28cde5;
+}
+
+.frame .frame-info a h5:hover,
+.frame .frame-info a h5:focus{
+	color: #28e56f;
+}
