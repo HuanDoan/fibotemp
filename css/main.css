@@ -712,6 +712,19 @@ footer .ft-menu .ft-menu-sub ul li a:hover{
 		overflow-y: auto;
 	}
 
+	#MainNav .user-act ul li div.more .more-dropdown::-webkit-scrollbar{
+		width: 8px;
+	}
+
+	#MainNav .user-act ul li div.more .more-dropdown::-webkit-scrollbar-track{
+		background-color: #fff;
+	}
+
+	#MainNav .user-act ul li div.more .more-dropdown::-webkit-scrollbar-thumb{
+		background-color: #ddd;
+		border-radius: 2px;
+	}
+
 	#MainNav .user-act ul li div.more .more-dropdown ul{
 		text-align: left;
 		margin: 0;

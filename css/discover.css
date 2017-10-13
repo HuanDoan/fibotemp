@@ -64,9 +64,53 @@
 	margin-top: 20px;
 }
 
+.filter .search{
+	background-color: #fff;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.filter .search input{
+	display: inline-block;
+	width: 90%;
+}
+
+.filter .search a{
+
+}
+
+.filter .search i{
+	display: inline-block;
+	font-size: 20px;
+	vertical-align: middle;
+	color: #aaa;
+}
+
 .filter input,
 .filter select{
+	outline: none;
+	box-shadow: none;
+	border: none;
+}
+
+.filter select{
+	height: 45px;
+	border-radius: 0;
 	margin-bottom: 10px;
+}
+
+.filter input:hover,
+.filter input:focus,
+.filter input:active,
+.filter select:hover,
+.filter select:focus,
+.filter select:active{
+	box-shadow: none;
+}
+
+.filter input:focus,
+.filter input:active{
+
 }
 
 .pagination{
@@ -112,4 +156,11 @@
 	background-color: #28e56f;
 	color: #fff;
 	font-weight: 400;
+}
+
+
+@media screen and (min-width: 768px){
+	.filter .search input{
+		width: 95%;
+	}
 }
