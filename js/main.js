@@ -48,3 +48,18 @@ $('.dropdown').each(function(){
 		});
 	});
 });
+
+
+function limitCharacterShow(obj, limit){
+
+	var text = '';
+
+	text += $(obj).text();
+	if (text.length > limit) {
+		var c 		= text.substr(0, limit);
+		var res 	= c + "...";
+	}
+	$(obj).html(res);
+
+	return res;
+}
