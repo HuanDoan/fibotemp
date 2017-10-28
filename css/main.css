@@ -165,6 +165,11 @@ body::-webkit-scrollbar-thumb{
 	border-radius: 100%;
 }
 
+.btn-sm{
+	line-height: 10px;
+	font-size: 12px;
+}
+
 .btn-love-react{
 	border-radius: 100%;
 	width: 50px;
@@ -183,6 +188,34 @@ body::-webkit-scrollbar-thumb{
 
 .btn-love-react span{
 	vertical-align: middle;
+}
+
+.btn-accept{
+	background-color: #32ca6f;
+	color: #fff;
+}
+
+.btn-accept-couple{
+	background-color: #ca32a2;
+	color: #fff;
+}
+
+.btn-accept-couple:hover,
+.btn-accept-couple:focus,
+.btn-accept-couple:active{
+	background-color: #a72d86;
+	color: #fff;
+}
+
+.btn-accept:hover,
+.btn-accept:focus,
+.btn-accept:active{
+	background-color: #2dad61;
+	color: #fff;
+}
+
+.btn-cancel{
+
 }
 
 #NavWrap{
