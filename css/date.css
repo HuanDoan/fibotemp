@@ -1,0 +1,52 @@
+.map{
+	margin-top: 25px;
+	width: 100%;
+	height: 80vh;
+}
+
+.ticket-wrap{
+	margin-top: 20px;
+}
+
+.ticket{
+	padding: 15px 10px;
+	margin-top: 10px;
+	color: #fff;
+}
+
+.ticket .ava{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ticket .ava img{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+
+.ticket .tk-content	{
+	display: inline-block;
+	max-width: 80%;
+	vertical-align: middle;
+	padding-left: 15px;
+}
+
+.ticket .tk-content span{
+	display: block;
+	max-width: 100%;
+	white-space: nowrap;
+	overflow-x: hidden;
+}
+
+@media screen and (min-width: 768px){
+	.map{
+		height: 60vh;
+	}
+}
+
+@media screen and (min-width: 991px){
+	.map{
+		height: 50vh;
+	}
+}

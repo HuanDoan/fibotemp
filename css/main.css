@@ -81,12 +81,6 @@ body::-webkit-scrollbar-thumb{
 	z-index: 2;
 }
 
-.ticket{
-	display: inline-block;
-	width: 49.74%;
-	height: 200px;
-}
-
 .nopadding-xs{
 	padding: 0 !important;
 }
