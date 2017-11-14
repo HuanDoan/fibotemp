@@ -147,8 +147,16 @@
 	vertical-align: middle;
 }
 
+.editor .inp-group span{
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 10px;
+	vertical-align: middle;
+	float: right;
+}
+
 .editor input{
-	width: 90%;
+	width: 80%;
 	border: none;
 }
 
@@ -201,10 +209,22 @@
 	max-width: 100%;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	float: left;
-	clear: left;
+	clear: both;
+	position: relative;
 }
 
+.messages-details .a-mess.seen{
+	margin-bottom: 20px;
+}
+
+.messages-details .a-mess.seen:after{
+	content: "Đã xem";
+	position: absolute;
+	bottom: -15px;
+	right: 10px;
+	font-size: 10px;
+	color: #aaa;
+}
 .messages-details .a-mess img,
 .messages-details .a-mess .mess{
 	display: inline-block;
@@ -275,5 +295,13 @@
 	.messages{
 		height: 80vh;
 		margin-top: 70px;
+	}
+
+	.messages-details{
+		border-left: 1px solid #eee;
+	}
+
+	.text{
+		padding-left: 10px;
 	}
 }

@@ -144,6 +144,27 @@ body::-webkit-scrollbar-thumb{
 	background: url('../images/social-icons-40.png') 0 -180px;
 }
 
+.ico{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ico-file{
+	background-image: url('../images/file.png');
+}
+
+.ico-emo{
+	background-image: url('../images/emo.png');
+}
+
+.ico-img{
+	background-image: url('../images/img.png');
+}
+
 
 .noti-no{
 	display: block;
